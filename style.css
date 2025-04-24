@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Ruwudu:wght@400;500;600;700&display=swap');
+body{
+    background-color: #131316;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+section{
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 150vh;
+
+}
+
+.hidden {
+    opacity: 0;
+    filter: blue(5px);
+    transform: translateX(-100%);
+    transition: all 1.5s ease-out;
+  }
+  
+  .show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+  }
+  
